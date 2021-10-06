@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>출력결과</title>
+    </head>
+    <body>
+        <script>
+            //연필 한 다스는 12자루
+            //1인당 1자루씩 나눠준다.
+            //N명의 학생수를 입력하면 필요한 연필의 다스 수를 계산
+            
+            /*
+            고민 1
+            n/12 + 1 -> 그런데 소수점이 나오기 때문에 이것을 없애주는 함수를 사용해야함.
+            Math.floor(n/12 + 1)
+            근데 여기서 문제점... 딱 다스에 맞게 인원을 넣었을 때도 +1이 되어버림.
+            소수점이 있을 때만 올림해버리면 될거같다.
+
+            고민 2
+            Math.ceil(n/12)
+            */
+            function solution(n){
+                let answer = Math.ceil(n/12);
+
+                return answer;
+            }
+
+            console.log(solution(25));
+        </script>
+    </body>
+</html>
