@@ -6,9 +6,9 @@
 [인프런](https://inf.run/HfQv)
 1. 세 수 중 최솟값
 2. 삼각형 판별하기
-3. [연필개수](Kimtaewon-Algorithm/섹션1/1-3.html)
+3. [연필개수](Kimtaewon-Algorithm/섹션1/1-3.html)<br>
 *사용된 함수<br>
-Math()
-Math.ceil() : 소수점 올림, 정수 반환
-Math.floor() : 소수점 버림, 정수 반환
-Maht.round() : 소수점 반올림, 정수 반환
+Math()<br>
+Math.ceil() : 소수점 올림, 정수 반환<br>
+Math.floor() : 소수점 버림, 정수 반환<br>
+Maht.round() : 소수점 반올림, 정수 반환<br>
