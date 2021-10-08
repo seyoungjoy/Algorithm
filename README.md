@@ -15,3 +15,4 @@ Math.floor() : 소수점 버림, 정수 반환<br>
 Maht.round() : 소수점 반올림, 정수 반환<br>
 
 4. [1부터 N까지의 합](Kimtaewon-Algorithm/섹션1/1-4.js)<br>
+5. [최솟값 구하기](Kimtaewon-Algorithm/섹션1/1-5.js)<br>
