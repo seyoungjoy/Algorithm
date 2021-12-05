@@ -3,19 +3,19 @@
 
 function solution(a, b, c){
     // 나의 정답
-    // let result;
-    // if(a>b){
-    //     result = b;
-    // } else{
+    let result;
+    if(a>b){
+        result = b;
+    } else{
 
-    //     result = a;
-    // }
-    // if(result>c){
-    //     result = c;
-    // } else{
-    //     result = result;
-    // }
-    // return result;
+        result = a;
+    }
+    if(result>c){
+        result = c;
+    } else{
+        result = result;
+    }
+    return result;
 
     // 강의 정답
     let answer;

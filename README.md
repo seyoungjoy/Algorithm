@@ -6,10 +6,13 @@
 듣고 있는 강의 -> [인프런](https://inf.run/HfQv)  
   
 1. [세 수 중 최솟값](Kimtaewon-Algorithm/섹션1/1-1.js)<br>
-**'if'문을 가독성 좋게 작성하기**<br>
+**'if'문 간결하게 작성하기**<br>
 ```
 if( a>b ) answer=a;
 else answer=b;
+
+//물음표 연산자
+a>b ? answer=a : answer=b;
 ```
 
 ---
