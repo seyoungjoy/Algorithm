@@ -5,6 +5,13 @@
 *혼자 고민해보고 강의 들으면서 공부 중~*  
 [인프런](https://inf.run/HfQv)
 1. [세 수 중 최솟값](Kimtaewon-Algorithm/섹션1/1-1.js)<br>
+**'if'문을 가독성 좋게 작성하기**<br>
+```
+if( a>b ) answer=a;
+else answer=b;
+```
+
+---
 2. [삼각형 판별하기](Kimtaewon-Algorithm/섹션1/1-2.js)<br>
 3. [연필개수](Kimtaewon-Algorithm/섹션1/1-3.js)<br>
 
