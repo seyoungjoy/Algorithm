@@ -1,15 +1,15 @@
 //나의 풀이
-// function solution(a, b, c){
-//     if(a>b) max=a;
-//     else max=b;
-//     if(max>c) max=max;
+function solution(a, b, c){
+    if(a>b) max=a;
+    else max=b;
+    if(max>c) max=max;
     
-//     if(a+b+c-max > max) console.log("yes");
-//     else console.log("no");
+    if(a+b+c-max > max) console.log("yes");
+    else console.log("no");
     
-//  }
+ }
 
-//  console.log(solution(6, 7, 11));
+ console.log(solution(6, 7, 11));
 
  //강의 참고 풀이
  function solution(a,b,c){
