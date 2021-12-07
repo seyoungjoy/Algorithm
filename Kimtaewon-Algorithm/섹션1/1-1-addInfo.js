@@ -18,6 +18,35 @@
 //     }
 // } while ( year === 27);
 
+let year = prompt('나는 몇살일까?','');
+
+// while(year===27){
+
+//     if(year>27){
+//         alert('up!');
+//         continue;
+//     }else if( year<27){
+//         alert('down!');
+//         continue;
+//     } else{
+//         alert('정답!');
+//     }
+// }
+
+do{
+    if(year>27){
+        alert('up!');
+        continue;
+    }else if( year<27){
+        alert('down!');
+        continue;
+    } else{
+        alert('정답!');
+    }
+}
+while(
+    year=27;
+)
 
 
 // let year = prompt('내 나이가 얼마게?');
