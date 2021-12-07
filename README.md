@@ -22,9 +22,7 @@ a>b ? answer=a : answer=b;
 이 공식을 이용해 a,b,c 중 최대값 max 를 구해서 해결할 수 있다.
 ---
 3. [연필개수](Kimtaewon-Algorithm/섹션1/1-3.js)<br>
-
-*사용된 함수<br>
-Math()<br>
+**- Math()**<br>
 Math.ceil() : 소수점 올림, 정수 반환<br>
 Math.floor() : 소수점 버림, 정수 반환<br>
 Maht.round() : 소수점 반올림, 정수 반환<br>
