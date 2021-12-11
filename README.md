@@ -27,8 +27,9 @@ Math.ceil() : 소수점 올림, 정수 반환<br>
 Math.floor() : 소수점 버림, 정수 반환<br>
 Maht.round() : 소수점 반올림, 정수 반환
 ---
-4. [1부터 N까지의 합](SY-Algorithm/섹션1/1-4.js)
+4. [1부터 N까지의 합](SY-Algorithm/1-4.js)
 
 ---
 
-5. [최솟값 구하기](Kimtaewon-Algorithm/섹션1/1-5.js)<br>
+5. [최솟값 구하기](SY-Algorithm/1-5.js)<br>
+6. [filter algorithm](https://www.notion.so/ES6-a1e92905808b4b8cbe8667b752495b8a);
