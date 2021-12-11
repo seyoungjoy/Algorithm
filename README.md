@@ -32,4 +32,12 @@ Maht.round() : 소수점 반올림, 정수 반환
 ---
 
 5. [최솟값 구하기](SY-Algorithm/1-5.js)<br>
+- Number.MAX_SAFE_INTEGER
+자바스크립트에서 안전한 최대 정수를 반환해 준다.<br>
+
+---
 6. [filter algorithm](https://www.notion.so/ES6-a1e92905808b4b8cbe8667b752495b8a);
+- filter
+```
+
+```
