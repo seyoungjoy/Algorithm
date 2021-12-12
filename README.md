@@ -50,8 +50,8 @@ console.log(...arr); //1,3,5
 let answer4 = Math.min.apply(null, arr);
 console.log(answer4); //1
 ```
-- 전개 구문(...arr)
-❗브라우저 호환성 : IE x
+- 전개 연산자(...arr)
+❗브라우저 호환성 : IE x<br>
 
 
 
