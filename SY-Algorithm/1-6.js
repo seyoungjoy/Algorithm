@@ -1,14 +1,23 @@
-
+//1 홀수인 자연수들을 모두 골라
+//2 그 합을 구하고
+//3 고른 홀수들 중 최소값을 찾는다.
 
 function solution(arr){
-    let answer, nmi=Number.MAX_SAFE_INTEGER; //min을 최대한 큰 수로 먼저 잡아줘야 아래에서 다른 값들과 비교할 때 편리하기 때문.
-    for(let i=0; i<arr.length; i++){
-        if(arr[i]<min) min=arr[i];
+    let answer=[];
+    let x=12;
+    
+    // 홀수 찾기
+    // if(x%2) result = '홀';
+    // else result = '짝';
+    
+   
+    if(x%2){
+        result='홀';
+        x=result1;
+        return result1;
     }
-    answer=min;
     return answer;
-
 }
 
-let arr=[5, 7, 1, 3, 2, 9, 11];
-console.log(solution(arr));
+arr=[12, 77, 38, 41, 53, 92, 85];
+// console.log(solution(arr));
