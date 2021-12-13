@@ -52,14 +52,11 @@ console.log(answer4); //1
 ```
 - 전개 연산자(...arr)<br>
 ❗브라우저 호환성 : IE x
-
-
-
-
+---
+- filter<br>
+[filter algorithm](https://www.notion.so/ES6-a1e92905808b4b8cbe8667b752495b8a);
 
 ---
-6. [filter algorithm](https://www.notion.so/ES6-a1e92905808b4b8cbe8667b752495b8a);
-- filter
-```
+6. [홀수](SY-Algorithm/1-5.js)<br>
 
-```
+---
