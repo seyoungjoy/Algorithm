@@ -57,6 +57,13 @@ console.log(answer4); //1
 [filter algorithm](https://www.notion.so/ES6-a1e92905808b4b8cbe8667b752495b8a);
 
 ---
-6. [홀수](SY-Algorithm/1-5.js)<br>
+6. [홀수](SY-Algorithm/1-6.js)<br>
+
+---
+7. [10부제](SY-Algorithm/1-7.js)<br>
+- 일의자리 숫자 구하기
+어떤 숫자든 10으로 나누어주면 나머지는 일의 값이 나온다.<br>
+23을 10으로 나누면 나머지는 3<br>
+2453을 10으로 나누면 나머지는 3<br>
 
 ---
