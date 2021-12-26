@@ -1,35 +1,20 @@
-//자동차 번호의 일의 자리 숫자, 날짜의 일의 자리 숫자가 일치
-// 해당 자동차 운행 금지.
-// 만약 일의 자리가 숫자가 0이면 10일
-// 주어진 날짜랑, 차량들의 일의 자리 숫자를 보고 위반하는 차량의 숫자
-
-// function solution(day, arr){
-//     let answer=0;
-//     for(let x of arr){
-//         if(x%10==day) answer++;
-//     }
-    
-//     return answer;
-// }
-
-
-
-// function solution(day, arr){
-//     let answer = 0;
-//     for(let x of arr){
-//         if(x%10===day) answer = answer+1;
-//     }
-//     return answer;
-// }
-
-// arr=[25, 23, 11, 47, 53, 17, 33];
-// console.log(solution(3, arr));
+//10부제
+//자동차 번호의 1의 자리 숫자, 날짜의 일의 자리 숫자가 일치-> 해당 자동차 운행 금지
+//위반하는 자동차의 개수를 세기
 
 function solution(day, arr){
-    for(let x of arr){
-        
+    let answer = 0;
+
+    //배열들의 1의 자리 숫자 구하기
+    for(let x of arr){ //arr에 있는 배열들을 하나하나 뽑아낸다.
+        if(x%10==day){ //각각의 숫자들을 10으로 나누었을 때의 나머지는 1의 자리 숫자,
+            //즉 1의자리 숫자와 day 값이 일치하면 answer에 +1을 해줌으로써 10부제를 지키지 않은 자동차의 숫자를 알 수 있다.
+            answer++;
+        }
     }
+    return answer;
 }
 
 arr=[25, 23, 11, 47, 53, 17, 33];
-console.log(solution(day,arr));
+console.log(solution(3, arr));
+
