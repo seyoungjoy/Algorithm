@@ -68,3 +68,13 @@ console.log(answer4); //1
 - 배열의 목록을 뽑고 싶을 때는 push 사용!<br>
 
 ---
+10. [문자 찾기](SY-Algorithm/1-10.js)<br>
+- split() : 문자열을 분할하는 메서드.<br>
+특정 문자를 찾을때 그 문자를 split으로 분할 한 다음<br>
+-1을 해주면 그 문자의 개수를 알 수 있다.<br>
+- +=, ++ 줄여쓰기<br>
+```
+answer = answer + 1;
+answer += 1
+answer ++
+```
