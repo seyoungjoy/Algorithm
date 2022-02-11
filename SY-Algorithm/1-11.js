@@ -3,6 +3,6 @@ function solution(str){
     
     return console.log(str.toUpperCase())
 }
-
+ 
 let exemple1 = "ItisTimeToStudy";
 solution(exemple1);
