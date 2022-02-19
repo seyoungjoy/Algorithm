@@ -78,3 +78,6 @@ answer = answer + 1;
 answer += 1
 answer ++
 ```
+---
+12. [대문자로 통일](SY-Algorithm/1-12.js)<br>
+
