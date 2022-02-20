@@ -79,5 +79,7 @@ answer += 1
 answer ++
 ```
 ---
+11. [대문자 찾기](SY-Algorithm/1-11.js)<br>
 12. [대문자로 통일](SY-Algorithm/1-12.js)<br>
+13. [대소문자 변환](SY-Algorithm/1-13.js)<br>
 
