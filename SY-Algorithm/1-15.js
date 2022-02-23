@@ -10,20 +10,35 @@
 나누기 2
 */
 
+//my solution
 function solution(str){
     let centerNumber = 0;
     if(str.length%2){
-        //홀수일때 가운데 구하기
         centerNumber = Math.ceil(str.length/2);
         return str[centerNumber-1];
     } else{
-        //짝수일때
-        centerNumber = Math((str/length)/2);
-        console.log(centerNumber)
-
+        centerNumber = str.length/2;
+        return str.substr(centerNumber-1,2);
     }
 }
 
-let answer = solution('stuudy');
+let exam1 = solution('study');
+let exam2 = solution('good');
 
-console.log(answer);
+// console.log(exam1); //u
+// console.log(exam2); //oo
+
+
+//standard solution
+function stdSolution(str){
+    let answer;
+    let mid = Math.floor(str.length/2);
+    if(str.length%2){
+        answer=str.substr(mid,1);
+    } else{
+        answer=str.substr(mid-1,2);
+    }
+    return answer;
+}
+
+console.log(stdSolution('study'))
