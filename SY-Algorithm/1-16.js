@@ -3,16 +3,12 @@
 //중복문자 제거
 //문자열의 순서는 유지
 
-
-
 function solution(str){
-    let answer ="";
+    let answer = '';
     for(let i=0; i<str.length; i++){
         if(str.indexOf(str[i])===i) answer += str[i];
     }
-    return answer;
+    return console.log(answer);
 
 }
-
-console.log(solution('ksekkset'));
-//hi
+solution('ksekkset');
