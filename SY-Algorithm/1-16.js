@@ -12,3 +12,11 @@ function solution(str){
 
 }
 solution('ksekkset');
+
+//다른방법은 없을까?
+
+function mySolution(str){
+
+
+}
+mySolution('ksekkset');
