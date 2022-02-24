@@ -82,4 +82,8 @@ answer ++
 11. [대문자 찾기](SY-Algorithm/1-11.js)<br>
 12. [대문자로 통일](SY-Algorithm/1-12.js)<br>
 13. [대소문자 변환](SY-Algorithm/1-13.js)<br>
+14. [가장 긴 문자열](SY-Algorithm/1-14.js)<br>
+15. [가운데 문자 출력](SY-Algorithm/1-15.js)<br>
+16. [중복문자제거](SY-Algorithm/1-16.js)<br>
+17. [중복단어제거](SY-Algorithm/1-17.js)<br>
 
