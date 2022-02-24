@@ -85,6 +85,32 @@ answer ++
 14. [가장 긴 문자열](SY-Algorithm/1-14.js)<br>
 15. [가운데 문자 출력](SY-Algorithm/1-15.js)<br>
 16. [중복문자제거](SY-Algorithm/1-16.js)<br>
+**- 중복문자찾는 방법**<br>
+indexOf 활용<br>
+Set : 중복이 허용되지 않는 객체.
+```
+let x = new Set([1,2,3,4,5]);
+//Set(5) {1,2,3,4,5}
+
+x.add(6);
+//Set(6) {1,2,3,4,5,6}
+
+x.delete(1);
+//Set(5) {2,3,4,5,6}
+
+x.has(2);
+//true
+
+x.clear();
+//Set(0) {}
+
+x.size;
+//0
+
+let str = new Set("하이루");
+//Set(3) {'하', '이', '루'}
+```
+---
 17. [중복단어제거](SY-Algorithm/1-17.js)<br>
 
 
