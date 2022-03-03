@@ -5,6 +5,7 @@
 //3일때 B가 2
 //A=B 같다면 무승부
 //그게 아니라면 나머지 경우는 모두 B가 이기는 경우
+//기준을 잘 잡아야한다.
 
 //my answer
 function solution2(n, arrA, arrB) {
