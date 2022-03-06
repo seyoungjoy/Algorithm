@@ -110,5 +110,10 @@ let str = new Set("하이루");
 ```
 ---
 17. [중복단어제거](SY-Algorithm/1-17.js)<br>
+18. [큰 수 출력하기](SY-Algorithm/2-1.js)<br>
+19. [보이는 학생](SY-Algorithm/2-2.js)<br>
+20. [가위 바위 보](SY-Algorithm/2-3.js)<br>
+21. [점수계산](SY-Algorithm/2-4.js)<br>
+
 
 
