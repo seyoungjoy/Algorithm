@@ -114,6 +114,17 @@ let str = new Set("하이루");
 19. [보이는 학생](SY-Algorithm/2-2.js)<br>
 20. [가위 바위 보](SY-Algorithm/2-3.js)<br>
 21. [점수계산](SY-Algorithm/2-4.js)<br>
+22. [등수구하기](SY-Algorithm/2-5.js)<br>
+- Array.from() : 유사 배열 객체, 반복 가능 객체를 복사해 새로운 Array 객체를 만든다.
+```
+//1.
+Array.from("Hello");
+//['H', 'e', 'l', 'l', 'o']
+
+//2.
+Array.from([1,2,3], x => x+x);
+//[2, 4, 6]
+```
 
 
 
